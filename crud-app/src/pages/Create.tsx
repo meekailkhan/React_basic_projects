@@ -1,11 +1,13 @@
 import { useState } from "react"
 import { useAppDispatch } from "../redux/app/hooks";
 import { add } from "../redux/feature/user";
+import { useNavigate } from "react-router-dom";
 
 const Create = () => {
   const [name,setName] = useState<string>('');
   const [email,setEmail] = useState<string>('')
   const dispatch = useAppDispatch()
+  const navigate = useNavigate()
 
   function submitHandler(e:React.FormEvent<HTMLFormElement>){
     e.preventDefault();
@@ -14,7 +16,8 @@ const Create = () => {
       email
     }
     dispatch(add(user))
-    console.log('form submitted successfully')
+    console.log('form submitted successfully');
+    navigate('/')
 
   }
 

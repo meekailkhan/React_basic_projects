@@ -8,8 +8,7 @@ const userSlice = createSlice({
     initialState: userList,
     reducers: {
         add: (state, action: PayloadAction<user>) => {
-            console.log(current(state)); // Debugging ke liye
-
+            console.log(current(state)); 
             return [...state, {
                 id: state.length + 1,
                 name: action.payload.name,
@@ -20,6 +19,9 @@ const userSlice = createSlice({
         del : (state,action : PayloadAction<number|undefined>) => {
             return state.filter(item => item.id !== action.payload)
         },
+        // update(state,action:PayloadAction<number|undefined>){
+            
+        // }
     },
 });
 
