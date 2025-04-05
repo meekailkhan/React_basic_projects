@@ -1,0 +1,19 @@
+@import url('../../data/variable.css');
+
+.service .box{
+    background-color: var(--primaryBackground);
+    padding: 35px;
+}
+
+.service{
+    margin-top: 5rem;
+}
+.service i{
+    color: var(--primaryColor);
+}
+.service h3{
+    margin-top: 20px;
+}
+.ser-sec{
+    padding-bottom: 2rem;
+}
