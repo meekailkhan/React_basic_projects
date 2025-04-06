@@ -7,6 +7,8 @@
 
 .service{
     margin-top: 5rem;
+    height: auto;
+    overflow: hidden;
 }
 .service i{
     color: var(--primaryColor);

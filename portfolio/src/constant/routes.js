@@ -3,7 +3,7 @@ export const ROUTES = {
     ABOUT : "/about",
     SERVICE : "/service",
     TESTIMONIALS : "/testimonials",
-    PORTFOLIO : "/portfolio",
+    PROJECTS : "/projects",
     BLOG : "/blog",
     CONTACT : "/contact"
 }

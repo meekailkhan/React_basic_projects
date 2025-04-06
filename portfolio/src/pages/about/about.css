@@ -3,6 +3,10 @@
 .secondryBtn{
     background-color: var(--primaryColor);
 }
+.about{
+    height: auto;
+    overflow: hidden;
+}
 
 .about .primaryBtn{
     margin-left: 20px;
@@ -16,5 +20,6 @@
     width: 35%;
 }
 .right{
+    padding-top: 5rem;
     width: 65%;
 }

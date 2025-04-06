@@ -1,0 +1,14 @@
+@import url('../data/variable.css');
+
+footer {
+    position: relative;
+    text-align: center;
+    background-color: var(--primaryBackground);
+    padding: 70px;
+    margin-top: 50px;
+}
+
+footer i {
+    margin: 5px;
+    color: var(--primaryColor);
+}

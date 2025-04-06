@@ -12,6 +12,7 @@ function Service() {
                     <ServiceCard />
                 </div>
             </section>
+            <div className='line'></div>
         </>
     )
 }

@@ -8,17 +8,24 @@ function About() {
     <>
       <section className='about'>
         <div className="container flex">
-          {about.map((val,i)=>(
+          {about.map((val, i) => (
             <div key={i} className='flex'>
-              <div className="left">
+              <div className="left" data-aos="zoom-in-right">
                 <img src={val.cover} alt="" />
               </div>
-              <div className="right">
-                <Heading title="About Me"/>
-                <p>{val.desc}</p>
-                <p>{val.desc1}</p>
-                <button className='secondryBtn'>Download CV</button>
-                <button className='primaryBtn'>Download CV</button>
+              <div className="right" data-aos="">
+                <Heading title="About Me" dataAos="zoom-out-down" />
+                <p data-aos="zoom-out-right">{val.desc}</p>
+                <a href="/meekail-resume.pdf" download className='download-btn' data-aos="zoom-out-up">
+                  <button className='secondryBtn'>
+                    Download CV
+                  </button>
+                </a>
+                <a href="/meekail-resume.pdf" download className='download-btn' data-aos="zoom-out-up">
+                  <button className='primaryBtn'>
+                    Download CV
+                  </button>
+                </a>
               </div>
             </div>
           ))}
