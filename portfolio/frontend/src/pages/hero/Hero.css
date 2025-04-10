@@ -1,5 +1,3 @@
-@import url('../../data/variable.css');
-
 .primaryBtn{
     background: none;
     border: solid 2px var(--primaryColor);

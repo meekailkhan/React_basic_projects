@@ -1,5 +1,3 @@
-@import url('../../data/variable.css');
-
 .service .box{
     background-color: var(--primaryBackground);
     padding: 35px;

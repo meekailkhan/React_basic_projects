@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
-@import url('./data/variable.css');
+/* @import url('./data/variable.css');*/
+:root {
+  --primaryBackground : #212222;
+  --secondryBackground : #2f3030;
+  --primaryColor : #e0a80d;
+  --greyDark : #7d8792;
+  --headingColor : #2d2e2e;
+  --white : #fff;
+  --black : #000;
+  --silver : #bac8d3;
+}
+
 
 *{
     margin: 0;

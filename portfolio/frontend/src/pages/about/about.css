@@ -1,5 +1,3 @@
-@import url('../../data/variable.css');
-
 .secondryBtn{
     background-color: var(--primaryColor);
 }
