@@ -8,7 +8,7 @@ function Project() {
     <section className="projects">
         <div className="container flex project-container" data-aos="zoom-out-up">
             <Heading title="Project"/>
-            <div className="card-container flex">
+            <div className="projects-cards card-container flex">
                 <ProjectCards />
             </div>
         </div>

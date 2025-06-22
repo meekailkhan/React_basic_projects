@@ -1,5 +1,5 @@
 import {React,useState,useEffect} from 'react'
-import logo from '../assets/download-removebg-preview.png'
+import logo from '/download-removebg-preview.png'
 import './navbar.css'
 import { Menu } from '@mui/icons-material'
 import AOS from "aos";

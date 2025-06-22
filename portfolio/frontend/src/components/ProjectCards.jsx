@@ -5,7 +5,7 @@ function ProjectCards() {
     return (
         <>
             {projects.map((item, i) => (
-                <div className="card flex" key={i}>
+                <div className="pro-card card flex " key={i}>
                     <div className="left" data-aos="zoom-out-right">
                         <img src={item.img} alt="" className='card-img' />
                     </div>

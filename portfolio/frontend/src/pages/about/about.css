@@ -6,8 +6,8 @@
     overflow: hidden;
 }
 
-.about .primaryBtn{
-    margin-left: 20px;
+.about .secondryBtn{
+    margin-right: 20px;
 }
 
 .about .heading{
@@ -15,9 +15,10 @@
     margin: 0;
 }
 .left{
-    width: 35%;
+    max-width: 35%;
 }
 .right{
     padding-top: 5rem;
-    width: 65%;
+    min-width: fit-content;
+    max-width: 65%;
 }

@@ -12,7 +12,7 @@ function Testimonials() {
                 <i data-aos='zoom-out-up'>
                   <FormatQuoteIcon />
                 </i>
-                <p data-aos='zoom-out-down'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quis?</p>
+                <p data-aos='zoom-out-down'>Success is built on discipline, not just raw motivation alone</p>
                 <div className='img' data-aos='zoom-out-right'>
                   <img src="/meekail.jpg" alt='' />
                 </div>

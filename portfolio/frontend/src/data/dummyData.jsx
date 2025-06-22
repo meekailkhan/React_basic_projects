@@ -1,4 +1,4 @@
-import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, GitHub, Twitter, Instagram,LinkedIn } from "@mui/icons-material"
+import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, GitHub, Twitter, Instagram,LinkedIn,BuildRounded,StorageRounded,WifiRounded } from "@mui/icons-material"
 
 export const navlinks = [
     {
@@ -33,14 +33,14 @@ export const home = [
         name: "MEEKAIL ASLAM",
         post: "FRONT-END DEVELOPER",
         design: "BACK-END DEVELOPER",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+        desc: " I'm passionate about JavaScript and currently diving deep into the MERN stack. Learning Nest.js and React.js to level up my skills. Working on a personal project using the MERN stack to create a dynamic web application.",
     },
 ]
 
 export const about = [
     {
-        desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-        desc1: "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
+        desc: "I'm a Fullstack Developer skilled in HTML, CSS, JavaScript, React, Node.js, NestJS, TypeScript, PostgreSQL, MySQL, and MongoDB. I enjoy building scalable web apps and RESTful APIs. I’m passionate about clean code, performance optimization, and continuous learning.",
+        desc1: " I bring both frontend finesse and backend strength to every project",
         cover: "/man.png",
     },
 ]
@@ -50,37 +50,37 @@ export const services = [
       id: 1,
       icon: <Settings />,
       title: "Creative Design",
-      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+      desc: "Unlock your imagination with creative code that transforms ideas into interactive, artistic digital experiences",
     },
     {
       id: 2,
       icon: <CropRotate />,
       title: "Clean Code",
-      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+      desc: "Write clean code that’s readable, maintainable, and efficient—making development smoother and debugging effortless",
     },
     {
       id: 3,
       icon: <ViewInAr />,
       title: "Responsive Design",
-      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+      desc: "Craft responsive designs that adapt beautifully across all devices, ensuring seamless user experiences everywhere",
     },
     {
       id: 4,
-      icon: <PieChart />,
-      title: "Material UI	",
-      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+      icon: <WifiRounded />,
+      title: "Real Time Communication (WS)",
+      desc: "Implement real-time features like chat and live updates using two-way communication between client and server",
     },
     {
       id: 5,
-      icon: <Code />,
-      title: "Material UI Icons",
-      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+      icon: <BuildRounded/>,
+      title: "RESTful APIs",
+      desc: "Build structured RESTful APIs that enable smooth communication between frontend and backend using standard HTTP methods",
     },
     {
       id: 6,
-      icon: <BarChart />,
-      title: "Awesome Support",
-      desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+      icon: <StorageRounded />,
+      title: "Database Integration",
+      desc: "Seamlessly connect and manage data with powerful database integration using SQL or NoSQL technologies.",
     },
   ]
 

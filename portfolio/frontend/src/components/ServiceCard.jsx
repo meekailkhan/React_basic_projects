@@ -4,7 +4,7 @@ import { services } from '../data/dummyData'
 function ServiceCard() {
     return (
         <>
-            <div className="container grid3">
+            <div className="container grid3 service-cards">
                 {services.map((item, i) => (
                     <div className="box" key={i} data-aos="flip-left">
                         <i>{item.icon}</i>

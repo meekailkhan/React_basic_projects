@@ -6,13 +6,15 @@
 .hero{
     position: relative;
     overflow: hidden;
+    height: 100vh;
+    padding-bottom: 5rem;
 }
 .hero::after{
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('../../assets/home-bg.png');
+    background-image: url('/home-bg.png');
     background-attachment: fixed;
     background-size: cover;
     z-index: -1;

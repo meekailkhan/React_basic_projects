@@ -11,15 +11,15 @@
     flex-direction: column;
 }
 .card .left {
-    width: 30%;
+    min-width: 30%;
     height: 50vh;
     margin-right: 1rem;
     border: solid 2px whitesmoke;
     border-radius: 2px;
 }
 .card .right {
-    width: 70%;
-    /* height: 48vh; */
+    max-width: 70%;
+    min-width: fit-content;
     height: auto;
     display: flex;
     flex-direction: column;

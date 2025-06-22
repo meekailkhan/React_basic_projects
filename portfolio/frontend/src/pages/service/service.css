@@ -6,6 +6,8 @@
 .service{
     margin-top: 5rem;
     height: auto;
+    display: flex;
+    flex-wrap: wrap;
     overflow: hidden;
 }
 .service i{
@@ -17,3 +19,4 @@
 .ser-sec{
     padding-bottom: 2rem;
 }
+

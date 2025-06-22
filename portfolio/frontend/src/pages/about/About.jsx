@@ -7,7 +7,7 @@ function About() {
   return (
     <>
       <section className='about'>
-        <div className="container flex">
+        <div className="container flex flex-wrap">
           {about.map((val, i) => (
             <div key={i} className='flex'>
               <div className="left" data-aos="zoom-in-right">
