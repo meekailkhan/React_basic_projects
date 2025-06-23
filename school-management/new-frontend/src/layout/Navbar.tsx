@@ -1,8 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import NavLink from "../components/ui/NavLink";
-import { useLocation } from "react-router-dom";
 import { ROUTES } from "@/contant/routes";
-import { useNavigate } from "react-router-dom";
+import { useNavigate ,useLocation} from "react-router-dom";
 
 function Navbar() {
   const navigate = useNavigate();
@@ -33,7 +32,7 @@ function Navbar() {
       </div>
       <div className="nav-links ">
         <ul className="nav-items flex items-center gap-8  text-white">
-          <NavLink title="Home" onClick={()=> navigate(ROUTES.HOME)}/>
+          <NavLink title="Home" onClick={()=> navigate(ROUTES.HOME)} className={location.pathname === ROUTES.HOME ? "bg-amber-400 rounded-4xl px-4 py-2" : "hover:text-white"}/>
           <div
             className="relative inline-block max-w-[100%] text-center text-black "
             ref={dropdownRef}
@@ -100,10 +99,10 @@ function Navbar() {
               </div>
             )}
           </div>
-          <NavLink title="Notice" onClick={() => navigate(ROUTES.NOTICE)} />
-          <NavLink title="Book's" onClick={() => navigate(ROUTES.BOOKS)} />
-          <NavLink title="Contact Us" onClick={() => navigate(ROUTES.CONTACT)} />
-          <NavLink title="Master" onClick={() => navigate(ROUTES.MASTER)} />
+          <NavLink title="Notice" onClick={() => navigate(ROUTES.NOTICE)} className={location.pathname === ROUTES.NOTICE ? "bg-amber-400 rounded-4xl px-4 py-2" : "hover:text-white"}/>
+          <NavLink title="Book's" onClick={() => navigate(ROUTES.BOOKS)} className={location.pathname === ROUTES.BOOKS ? "bg-amber-400 rounded-4xl px-4 py-2" : "hover:text-white"}/>
+          <NavLink title="Contact Us" onClick={() => navigate(ROUTES.CONTACT)} className={location.pathname === ROUTES.CONTACT ? "bg-amber-400 rounded-4xl px-4 py-2" : "hover:text-white"}/>
+          <NavLink title="Master" onClick={() => navigate(ROUTES.MASTER)} className={location.pathname === ROUTES.MASTER ? "bg-amber-400 rounded-4xl px-4 py-2" : "hover:text-white"}/>
 
           <div className="join-us">
             <button
